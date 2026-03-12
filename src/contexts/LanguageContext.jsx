@@ -17,61 +17,73 @@ export const translations = {
       title: "Top Achievements",
       items: [
         {
-          title: "World Taekwondo Championship 2022",
-          description: "Gold Medalist (-49 kg) - Guadalajara, Mexico"
+          title: "U.S. Open Taekwondo Championships 2025",
+          description: "Gold Medalist (-49 kg) - Reno, NV",
+          medal: "gold"
         },
         {
-          title: "Pan American Games 2023",
-          description: "Gold Medalist (Bicampeonato) - Santiago, Chile"
-        },
-        {
-          title: "Pan American Games 2019",
-          description: "Gold Medalist - Lima, Peru"
-        },
-        {
-          title: "Pan American Championships 2021 & 2022",
-          description: "Gold Medalist - Cancún & Punta Cana"
-        },
-        {
-          title: "Central American & Caribbean Games 2018",
-          description: "Gold Medalist - Barranquilla, Colombia"
+          title: "Paris 2024 Olympic Games",
+          description: "Participant (-49 kg) - Paris, France",
+          medal: "participant"
         },
         {
           title: "U.S. Open Taekwondo Championships 2024",
-          description: "Gold Medalist (-49 kg)"
-        }
-      ]
-    },
-    competitions: {
-      title: "Next Competitions",
-      status: {
-        upcoming: "Upcoming",
-        scheduled: "Scheduled",
-        planned: "Planned"
-      },
-      items: [
-        {
-          name: "Paris 2024 Olympic Games",
-          location: "Paris, France",
-          date: "August 2024",
-          statusKey: "upcoming"
+          description: "Gold Medalist (-49 kg) - Reno, NV",
+          medal: "gold"
         },
         {
-          name: "World Taekwondo Grand Prix",
-          location: "TBD",
-          date: "Fall 2024",
-          statusKey: "scheduled"
+          title: "Pan American Games 2023",
+          description: "Gold Medalist (Bicampeonato) - Santiago, Chile",
+          medal: "gold"
         },
         {
-          name: "Pan American Championships",
-          location: "TBD",
-          date: "2025",
-          statusKey: "planned"
+          title: "World Taekwondo Championships 2022",
+          description: "Gold Medalist (-49 kg) - Guadalajara, Mexico",
+          medal: "gold"
+        },
+        {
+          title: "World Taekwondo Grand Prix 2022",
+          description: "Bronze Medalist - Rome, Italy",
+          medal: "bronze"
+        },
+        {
+          title: "Pan American Championships 2021 & 2022",
+          description: "Gold Medalist - Cancún & Punta Cana",
+          medal: "gold"
+        },
+        {
+          title: "WT Women's Open Championships 2021",
+          description: "Bronze Medalist - Riyadh, Saudi Arabia",
+          medal: "bronze"
+        },
+        {
+          title: "Pan American Games 2019",
+          description: "Gold Medalist - Lima, Peru",
+          medal: "gold"
+        },
+        {
+          title: "Central American & Caribbean Games 2018",
+          description: "Gold Medalist - Barranquilla, Colombia",
+          medal: "gold"
         }
       ]
     },
     video: {
-      title: "Featured Videos"
+      title: "Featured Videos",
+      items: [
+        {
+          id: "tUQlj8fbBFE",
+          title: "World Championships 2022 | SF vs Panipak Wongpattanakit"
+        },
+        {
+          id: "pfXPe5XrtWU",
+          title: "Career Highlights & Best Moments"
+        },
+        {
+          id: "JHgXd0WrqPA",
+          title: "TEDx Talk: Lecciones del Fracaso"
+        }
+      ]
     },
     footer: {
       title: "Connect with Daniela",
@@ -93,61 +105,73 @@ export const translations = {
       title: "Principales Logros",
       items: [
         {
-          title: "Campeonato Mundial de Taekwondo 2022",
-          description: "Medallista de Oro (-49 kg) - Guadalajara, México"
+          title: "Abierto de Estados Unidos 2025",
+          description: "Medallista de Oro (-49 kg) - Reno, NV",
+          medal: "gold"
+        },
+        {
+          title: "Juegos Olímpicos de París 2024",
+          description: "Participante (-49 kg) - París, Francia",
+          medal: "participant"
+        },
+        {
+          title: "Abierto de Estados Unidos 2024",
+          description: "Medallista de Oro (-49 kg) - Reno, NV",
+          medal: "gold"
         },
         {
           title: "Juegos Panamericanos 2023",
-          description: "Medallista de Oro (Bicampeonato) - Santiago, Chile"
+          description: "Medallista de Oro (Bicampeonato) - Santiago, Chile",
+          medal: "gold"
         },
         {
-          title: "Juegos Panamericanos 2019",
-          description: "Medallista de Oro - Lima, Perú"
+          title: "Campeonato Mundial de Taekwondo 2022",
+          description: "Medallista de Oro (-49 kg) - Guadalajara, México",
+          medal: "gold"
+        },
+        {
+          title: "Grand Prix Mundial de Taekwondo 2022",
+          description: "Medallista de Bronce - Roma, Italia",
+          medal: "bronze"
         },
         {
           title: "Campeonatos Panamericanos 2021 y 2022",
-          description: "Medallista de Oro - Cancún y Punta Cana"
+          description: "Medallista de Oro - Cancún y Punta Cana",
+          medal: "gold"
+        },
+        {
+          title: "Campeonato Femenino de Taekwondo 2021",
+          description: "Medallista de Bronce - Riad, Arabia Saudita",
+          medal: "bronze"
+        },
+        {
+          title: "Juegos Panamericanos 2019",
+          description: "Medallista de Oro - Lima, Perú",
+          medal: "gold"
         },
         {
           title: "Juegos Centroamericanos y del Caribe 2018",
-          description: "Medallista de Oro - Barranquilla, Colombia"
-        },
-        {
-          title: "Abierto de Estados Unidos de Taekwondo 2024",
-          description: "Medallista de Oro (-49 kg)"
-        }
-      ]
-    },
-    competitions: {
-      title: "Próximas Competencias",
-      status: {
-        upcoming: "Próxima",
-        scheduled: "Programada",
-        planned: "Planificada"
-      },
-      items: [
-        {
-          name: "Juegos Olímpicos de París 2024",
-          location: "París, Francia",
-          date: "Agosto 2024",
-          statusKey: "upcoming"
-        },
-        {
-          name: "Grand Prix Mundial de Taekwondo",
-          location: "Por definir",
-          date: "Otoño 2024",
-          statusKey: "scheduled"
-        },
-        {
-          name: "Campeonato Panamericano",
-          location: "Por definir",
-          date: "2025",
-          statusKey: "planned"
+          description: "Medallista de Oro - Barranquilla, Colombia",
+          medal: "gold"
         }
       ]
     },
     video: {
-      title: "Videos Destacados"
+      title: "Videos Destacados",
+      items: [
+        {
+          id: "tUQlj8fbBFE",
+          title: "Campeonato Mundial 2022 | SF vs Panipak Wongpattanakit"
+        },
+        {
+          id: "pfXPe5XrtWU",
+          title: "Momentos Destacados de Carrera"
+        },
+        {
+          id: "JHgXd0WrqPA",
+          title: "TEDx Talk: Lecciones del Fracaso"
+        }
+      ]
     },
     footer: {
       title: "Conecta con Daniela",

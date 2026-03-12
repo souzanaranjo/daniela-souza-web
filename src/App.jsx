@@ -2,7 +2,6 @@ import React from 'react';
 import Hero from './components/Hero';
 import Biography from './components/Biography';
 import Achievements from './components/Achievements';
-import Competitions from './components/Competitions';
 import VideoSection from './components/VideoSection';
 import Footer from './components/Footer';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
@@ -72,7 +71,6 @@ function AppContent() {
       <Hero />
       <Biography />
       <Achievements />
-      <Competitions />
       <VideoSection />
       <Footer />
     </div>
