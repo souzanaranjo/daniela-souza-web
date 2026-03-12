@@ -1,18 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
+import heroBg from '../assets/hero-bg.jpg';
 
 const Hero = () => {
   const { t } = useLanguage();
   return (
     <section className="hero">
-      <img 
-        src="/assets/hero-bg.jpg" 
-        alt="Daniela Souza" 
-        className="hero-bg" 
+      <img
+        src={heroBg}
+        alt="Daniela Souza"
+        className="hero-bg"
       />
       <div className="hero-overlay"></div>
-      
+
       <div className="hero-content container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -21,9 +22,9 @@ const Hero = () => {
         >
           <h1 className="text-gradient">{t.hero.title}</h1>
           <p>{t.hero.subtitle}</p>
-          
-          <motion.a 
-            href="#achievements" 
+
+          <motion.a
+            href="#achievements"
             className="btn glass"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
