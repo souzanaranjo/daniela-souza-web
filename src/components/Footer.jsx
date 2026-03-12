@@ -10,10 +10,10 @@ const Footer = () => {
     <footer>
       <div className="container footer-content">
         <h2 className="text-gradient" style={{ fontSize: '2rem' }}>{t.footer.title}</h2>
-        
+
         <div className="social-links">
-          <motion.a 
-            href="https://www.instagram.com/danielapsouzan/" 
+          <motion.a
+            href="https://www.instagram.com/danielapsouzan/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn glass"
@@ -22,20 +22,23 @@ const Footer = () => {
           >
             <FaInstagram />
           </motion.a>
-          {/* 
-          <motion.a 
-            href="#" 
+          <motion.a
+            href="https://www.facebook.com/danielapaola.souzanaranjo"
+            target="_blank"
+            rel="noopener noreferrer"
             className="social-btn glass"
             whileHover={{ scale: 1.1, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
           >
             <FaFacebookF />
-          </motion.a> 
-          */}
+          </motion.a>
         </div>
-        
+
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} {t.footer.rights}</p>
+          <p style={{ marginTop: '10px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+            {t.footer.createdBy}
+          </p>
         </div>
       </div>
     </footer>

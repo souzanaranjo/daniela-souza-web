@@ -6,12 +6,12 @@ const Competitions = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="competitions" className="container">
+    <section id="competitions" className="container" style={{ paddingTop: '50px', paddingBottom: '50px' }}>
       <h2 className="section-title text-gradient">{t.competitions.title}</h2>
-      
+
       <div className="competitions-list">
         {t.competitions.items.map((comp, index) => (
-          <motion.div 
+          <motion.div
             key={index}
             className="competition-item glass"
             initial={{ opacity: 0, x: -50 }}

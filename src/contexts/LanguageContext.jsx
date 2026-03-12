@@ -70,9 +70,13 @@ export const translations = {
         }
       ]
     },
+    video: {
+      title: "Featured Videos"
+    },
     footer: {
       title: "Connect with Daniela",
-      rights: "Daniela Souza Naranjo. All Rights Reserved."
+      rights: "Daniela Souza Naranjo. All Rights Reserved.",
+      createdBy: "Created with ❤️ by David Souza Naranjo"
     }
   },
   es: {
@@ -142,9 +146,13 @@ export const translations = {
         }
       ]
     },
+    video: {
+      title: "Videos Destacados"
+    },
     footer: {
       title: "Conecta con Daniela",
-      rights: "Daniela Souza Naranjo. Todos los derechos reservados."
+      rights: "Daniela Souza Naranjo. Todos los derechos reservados.",
+      createdBy: "Creado con ❤️ por David Souza Naranjo"
     }
   }
 };
